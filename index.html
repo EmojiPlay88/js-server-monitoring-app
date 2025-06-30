@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Game Server Monitor</title>
 </head>
-<body>
-$END$
+<body onload="onLoad()">
+    <h1 id="hostname"></h1>
+    <h3 id="playercount"></h3>
+    <script src="main.js"></script>
+    <button id="serverconnect" onclick="serverconnect()">Connect to the server</button>
 </body>
 </html>
